@@ -1,0 +1,414 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-26 04:41+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_1-base-footer.volt.php:14
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_1-base.volt_e_.php:45
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_password_reset.volt.php:78
+msgid "all_rights_reserved"
+msgstr "Все права защищены"
+
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_1-greeting.volt.php:2
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_password_reset.volt.php:38
+msgid "letter_pre_name"
+msgstr "Здравствуйте"
+
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_password_reset.volt.php:49
+msgid "letter_password_reset_text"
+msgstr "Для смены пароля Вам необходимо перейти по ссылке"
+
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_password_reset.volt.php:56
+msgid "password_reset_button"
+msgstr "Сменить пароль"
+
+#: app/controllers/ApiController.php:26
+msgid "permission_ctrl_denied"
+msgstr "Отказано в доступе"
+
+#: app/controllers/ApiController.php:33
+msgid "permission_action_denied"
+msgstr "Отказано в доступе к действию"
+
+#: app/controllers/AuthController.php:115
+msgid "errmsg_invalid_activation_email"
+msgstr "Неверный email"
+
+#: app/controllers/AuthController.php:119
+msgid "errmsg_invalid_activation_email_is_verified"
+msgstr "Данный email адрес уже подтвержден"
+
+#: app/controllers/AuthController.php:123
+#: app/controllers/AuthController.php:142
+#: app/controllers/AuthController.php:305
+msgid "errmsg_invalid_activation_code"
+msgstr "Неверный активационный код"
+
+#: app/controllers/AuthController.php:239
+msgid "approve_company_on_register"
+msgstr "Подтвердить компанию"
+
+#: app/controllers/AuthController.php:311
+#: app/controllers/AuthController.php:465
+msgid "errmsg_client_not_exist"
+msgstr "Пользователь не найден"
+
+#: app/controllers/AuthController.php:322
+#: app/controllers/AuthController.php:460
+msgid "errmsg_email_not_exist"
+msgstr "Email не найден"
+
+#: app/controllers/AuthController.php:496
+msgid "subj_password_reset"
+msgstr "Пожалуйста, подтвердите смену пароля"
+
+#: app/controllers/AuthController.php:499
+msgid "msg_password_reset_code_was_sent"
+msgstr "На указанную Вами почту выслано письмо для подтверждения смены пароля"
+
+#: app/controllers/AuthController.php:501
+msgid "errmsg_password_reset_code_send"
+msgstr "Произошла ошибка во время отправки письма"
+
+#: app/controllers/AuthController.php:517
+#: app/controllers/AuthController.php:533
+msgid "errmsg_password_reset_code_false"
+msgstr "Код смены пароля не найден или устарел"
+
+#: app/controllers/AuthController.php:536
+msgid "errmsg_password_repeat_needed"
+msgstr "Необходимо повторно указать пароль"
+
+#: app/controllers/AuthController.php:539
+msgid "errmsg_password_and_repeat_not_equal"
+msgstr "Пароли не совпадают"
+
+#: app/controllers/ClientController.php:29
+#: app/controllers/ClientController.php:52
+msgid "client_company_is_empty"
+msgstr "Пользователь не состоит в компании"
+
+#: app/global/Locale.php:35
+msgid "test_lang_key_"
+msgstr ""
+
+#: app/global/Security.php:41
+msgid "token_not_needed"
+msgstr "Передан токен для открытого метода"
+
+#: app/global/Security.php:55
+msgid "broker_unauthorized"
+msgstr "Брокер неавторизирован"
+
+#: app/global/Security.php:62
+msgid "broker_unauthorizeds"
+msgstr ""
+
+#: app/global/Security.php:74
+msgid "user_unauthorized_expire_sso_token"
+msgstr "Неавторизированный пользователь, время токена истекло"
+
+#: app/global/Security.php:87
+msgid "user_unauthorized_sso_session_not_find"
+msgstr "Неавторизированный пользователь, сессия не найдена"
+
+#: app/global/Security.php:104
+msgid "user_unauthorized_not_found_token"
+msgstr "Неавторизированный пользователь, токен не найден"
+
+#: app/global/Security.php:110
+msgid "user_unauthorized_user_deleted"
+msgstr "Неавторизированный пользователь, пользователь удален"
+
+#: app/helpers/ClientHelper.php:197 app/models/ClientAttributes.php:212
+msgid "validator_phone_number_not_correct"
+msgstr "Телефон введен не верно"
+
+#: app/helpers/SingleSignOnHelper.php:44
+#: app/helpers/SingleSignOnHelper.php:161
+msgid "msg_username_not_set"
+msgstr "Не указано имя пользователя"
+
+#: app/helpers/SingleSignOnHelper.php:46
+#: app/helpers/SingleSignOnHelper.php:165
+msgid "msg_password_not_set"
+msgstr "Не указан пароль"
+
+#: app/helpers/SingleSignOnHelper.php:172
+msgid "msg_user_was_deleted"
+msgstr "Пользователь был удален"
+
+#: app/helpers/SingleSignOnHelper.php:179
+#: app/helpers/SingleSignOnHelper.php:184
+msgid "msg_invalid_credentials"
+msgstr "Неверные имя пользователя или пароль"
+
+#: app/helpers/validation_class/BelongsTo.php:31
+#: app/helpers/validation_errors/BelongsTo.php:10
+msgid "validator_field_not_correct"
+msgstr "К сожалению, поле введено неправильно"
+
+#: app/helpers/validation_class/ChangePassword.php:21
+#: app/helpers/validation_errors/ChangePassword.php:10
+msgid "validator_old_pass_not_correct"
+msgstr "К сожалению, старый пароль введен не правильно"
+
+#: app/helpers/validation_class/ManyTableUniqueness.php:34
+msgid "This record not unique"
+msgstr "Запись не является уникально"
+
+#: app/helpers/validation_class/NameValidator.php:21
+msgid "validator_field_name_not_correct"
+msgstr "Неверно введены данные"
+
+#: app/helpers/validation_errors/ApiValidationError.php:37
+#, php-format
+msgid "validator_field_not_defined"
+msgstr "Поле не определено. Сообщение:"
+
+#: app/helpers/validation_errors/Between.php:9
+msgid "validator_timezone_range_not_correct"
+msgstr "Поле 'timezone' должно быть в промежутке от -11 до +14"
+
+#: app/helpers/validation_errors/Email.php:9
+#: app/helpers/validation_errors/Email.php:14
+msgid "validator_email_not_correct"
+msgstr "Указан не валидный email"
+
+#: app/helpers/validation_errors/InclusionIn.php:10
+msgid "validator_lib_value_not_inclusion_in"
+msgstr "Поле не входит в допустимые значения"
+
+#: app/helpers/validation_errors/InclusionIn.php:15
+msgid "domain_employees_invalid_active_value"
+msgstr "Недопустимое значение видимости"
+
+#: app/helpers/validation_errors/InclusionIn.php:20
+msgid "domain_menu_type_content_inclusion_in"
+msgstr "Недопустимое значение типа содержания"
+
+#: app/helpers/validation_errors/InclusionIn.php:25
+msgid "rubric_news_section_id_inclusion_in"
+msgstr "Недопустимое значение секции"
+
+#: app/helpers/validation_errors/NameValidator.php:10
+msgid "validator_first_name_not_correct"
+msgstr "Поле 'имя' введено неверно"
+
+#: app/helpers/validation_errors/NameValidator.php:15
+msgid "validator_last_name_not_correct"
+msgstr "Поле 'фамилия' введено неверно"
+
+#: app/helpers/validation_errors/NameValidator.php:20
+msgid "validator_second_name_not_correct"
+msgstr "Поле 'отчество' введено неверно"
+
+#: app/helpers/validation_errors/PresenceOf.php:9
+msgid "validator_email_presence_of"
+msgstr "Поле 'email' обязательно для заполнения"
+
+#: app/helpers/validation_errors/PresenceOf.php:14
+msgid "validator_first_name_presence_of"
+msgstr "Поле 'имя' обязательно для заполнения"
+
+#: app/helpers/validation_errors/PresenceOf.php:19
+msgid "validator_last_name_presence_of"
+msgstr "Поле 'фамилия' обязательно для заполнения"
+
+#: app/helpers/validation_errors/PresenceOf.php:24
+msgid "validator_password_presence_of"
+msgstr "Поле 'пароль' обязательно для заполнения"
+
+#: app/helpers/validation_errors/PresenceOf.php:29
+#: app/helpers/validation_errors/PresenceOf.php:39
+msgid "validator_phone_number_presence_of"
+msgstr "Поле телефона должно быть заполнено"
+
+#: app/helpers/validation_errors/PresenceOf.php:34
+msgid "validator_name_presence_of"
+msgstr "Поле 'имя' обязательно для заполнения"
+
+#: app/helpers/validation_errors/PresenceOf.php:44
+msgid "validator_site_presence_of"
+msgstr "Поле 'сайт' необходимо для ввода"
+
+#: app/helpers/validation_errors/PresenceOf.php:49
+msgid "validator_title_presence_of"
+msgstr "Поле 'заголовок' обязательно для ввода"
+
+#: app/helpers/validation_errors/PresenceOf.php:54
+msgid "validator_alias_presence_of"
+msgstr "Поле 'alias' обязательно для заполнения"
+
+#: app/helpers/validation_errors/PresenceOf.php:59
+msgid "validator_type_content_presence_of"
+msgstr "Поле 'тип содержания' обязателно для заполнения"
+
+#: app/helpers/validation_errors/PresenceOf.php:64
+msgid "validator_section_id_presence_of"
+msgstr "Поле 'секция' обязателно для заполнения"
+
+#: app/helpers/validation_errors/PresenceOf.php:69
+msgid "validator_start_offset_presence_of"
+msgstr "Поле 'начало аннотации' обязательно для ввода"
+
+#: app/helpers/validation_errors/PresenceOf.php:74
+msgid "validator_end_offset_presence_of"
+msgstr "Поле 'конец аннотации' обязательно для ввода"
+
+#: app/helpers/validation_errors/PresenceOf.php:79
+msgid "validator_color_presence_of"
+msgstr "Поле 'цвет аннотации' обязательно для ввода"
+
+#: app/helpers/validation_errors/PresenceOf.php:84
+msgid "validator_annotation_presence_of"
+msgstr "Поле 'тело аннотации' обязательно для ввода"
+
+#: app/helpers/validation_errors/Regex.php:9
+#: app/helpers/validation_errors/Regex.php:14
+msgid "validator_phone_number_regex"
+msgstr "Телефонный номер неккоректный"
+
+#: app/helpers/validation_errors/TooLong.php:9
+msgid "validator_first_name_too_long"
+msgstr "Поле 'имя' не должно превышать 50 символов"
+
+#: app/helpers/validation_errors/TooLong.php:14
+msgid "validator_second_name_too_long"
+msgstr "Поле 'отчество' не должно превышать 50 символов"
+
+#: app/helpers/validation_errors/TooLong.php:19
+msgid "validator_last_name_too_long"
+msgstr "Поле 'фамилия' не должно превышать 50 символов"
+
+#: app/helpers/validation_errors/TooLong.php:24
+msgid "validator_password_too_long"
+msgstr "Пароль слишком длинный"
+
+#: app/helpers/validation_errors/TooLong.php:29
+msgid "validator_old_password_too_long"
+msgstr "Старый пароль слишком длинный"
+
+#: app/helpers/validation_errors/TooLong.php:34
+msgid "validator_name_too_long"
+msgstr "Поле 'имя' слишком длинное"
+
+#: app/helpers/validation_errors/TooLong.php:39
+msgid "validator_inn_too_long"
+msgstr "Поле 'ИНН' слишком длинное"
+
+#: app/helpers/validation_errors/TooLong.php:44
+msgid "validator_address_too_long"
+msgstr "Поле 'адрес' слишком длинное"
+
+#: app/helpers/validation_errors/TooShort.php:9
+msgid "validator_first_name_too_short"
+msgstr "Поле 'имя' должно быть более 2-ух символов"
+
+#: app/helpers/validation_errors/TooShort.php:14
+msgid "validator_second_name_too_short"
+msgstr "В поле 'отчество' должен быть хотя бы один символ"
+
+#: app/helpers/validation_errors/TooShort.php:19
+msgid "validator_last_name_too_short"
+msgstr "Поле 'фамилия' должно быть более 2-ух символов"
+
+#: app/helpers/validation_errors/TooShort.php:24
+msgid "validator_password_too_short"
+msgstr "Поле 'пароль' должно быть более 2-ух символов"
+
+#: app/helpers/validation_errors/TooShort.php:29
+msgid "validator_old_password_too_short"
+msgstr "Старый пароль слишком короткий"
+
+#: app/helpers/validation_errors/TooShort.php:34
+msgid "validator_name_too_short"
+msgstr "Поле 'имя' слишком короткое"
+
+#: app/helpers/validation_errors/TooShort.php:39
+msgid "validator_inn_too_short"
+msgstr "Поле 'ИНН' слишком короткое"
+
+#: app/helpers/validation_errors/TooShort.php:44
+msgid "validator_address_too_short"
+msgstr "Поле 'адрес' слишком короткое"
+
+#: app/helpers/validation_errors/Uniqueness.php:9
+msgid "validator_email_unique"
+msgstr "Такой email уже существует"
+
+#: app/helpers/validation_errors/Uniqueness.php:14
+#: app/helpers/validation_errors/Uniqueness.php:19
+msgid "validator_phone_number_unique"
+msgstr "Данный телефон уже используется"
+
+#: app/helpers/validation_errors/Uniqueness.php:24
+msgid "validator_name_unique"
+msgstr "Поле 'имя' должно буть уникальным"
+
+#: app/library/Response/Basic.php:94
+msgid "error_permission_denied"
+msgstr "Ошибка прав доступа"
+
+#: app/library/TimeAgo/TimeAgo.php:286
+#, php-format
+msgid "%d days ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d день назад"
+msgstr[1] "%d дня назад"
+msgstr[2] "%d дней назад"
+
+#: app/library/TimeAgo/TimeAgo.php:289
+#, php-format
+msgid "%d hours ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d час назад"
+msgstr[1] "%d часа назад"
+msgstr[2] "%d часов назад"
+
+#: app/library/TimeAgo/TimeAgo.php:292
+#, php-format
+msgid "%d minutes ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d минуту назад"
+msgstr[1] "%d минуты назад"
+msgstr[2] "%d минут назад"
+
+#: app/library/TimeAgo/TimeAgo.php:295
+#, php-format
+msgid "%d months ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d месяц назад"
+msgstr[1] "%d месяца назад"
+msgstr[2] "%d месяцев назад"
+
+#: app/library/TimeAgo/TimeAgo.php:298
+#, php-format
+msgid "%d years ago"
+msgid_plural "%d years ago"
+msgstr[0] "%d год назад"
+msgstr[1] "%d года назад"
+msgstr[2] "%d лет назад"
+
+#: app/models/Client.php:1135
+msgid "last_visit_never"
+msgstr "Никогда"
+
+#: app/models/ClientEmail.php:280 app/models/RegisterRequest.php:342
+msgid "subj_confirm_email"
+msgstr "Пожалуйста подтвердите email"

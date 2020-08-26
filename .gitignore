@@ -1,0 +1,15 @@
+.idea/
+/nbproject
+
+*.log
+
+composer.lock
+
+vendor/*
+node_modules/*
+
+/app/cache/*
+!/app/cache/
+/app/cache/volt/*
+!/app/cache/volt/
+!/app/cache/volt/dummy.txt

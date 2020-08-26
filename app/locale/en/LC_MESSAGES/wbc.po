@@ -1,0 +1,412 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-26 04:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_1-base-footer.volt.php:14
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_1-base.volt_e_.php:45
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_password_reset.volt.php:78
+msgid "all_rights_reserved"
+msgstr "All rights reserved"
+
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_1-greeting.volt.php:2
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_password_reset.volt.php:38
+#: app/views/mail/1-greeting.volt:2
+msgid "letter_pre_name"
+msgstr "Hello"
+
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_password_reset.volt.php:49
+msgid "letter_password_reset_text"
+msgstr "Сlick on the link to change the password"
+
+#: app/cache/volt/_var_www_wbc-api_app_views_mail_password_reset.volt.php:56
+msgid "password_reset_button"
+msgstr "Reset your password"
+
+#: app/controllers/ApiController.php:26
+msgid "permission_ctrl_denied"
+msgstr "Permission denied"
+
+#: app/controllers/ApiController.php:33
+msgid "permission_action_denied"
+msgstr "Permission action denied"
+
+#: app/controllers/AuthController.php:115
+msgid "errmsg_invalid_activation_email"
+msgstr "Invalid activation email"
+
+#: app/controllers/AuthController.php:119
+msgid "errmsg_invalid_activation_email_is_verified"
+msgstr "This email is already verified"
+
+#: app/controllers/AuthController.php:123
+#: app/controllers/AuthController.php:142
+#: app/controllers/AuthController.php:305
+msgid "errmsg_invalid_activation_code"
+msgstr "Invalid activation code"
+
+#: app/controllers/AuthController.php:239
+msgid "approve_company_on_register"
+msgstr "Confirm your company"
+
+#: app/controllers/AuthController.php:311
+#: app/controllers/AuthController.php:465
+msgid "errmsg_client_not_exist"
+msgstr "Client does not exist"
+
+#: app/controllers/AuthController.php:322
+#: app/controllers/AuthController.php:460
+msgid "errmsg_email_not_exist"
+msgstr "Email does not exist"
+
+#: app/controllers/AuthController.php:496
+msgid "subj_password_reset"
+msgstr "Please confirm your password reset"
+
+#: app/controllers/AuthController.php:499
+msgid "msg_password_reset_code_was_sent"
+msgstr ""
+"An email has been sent to your inbox with details for password change "
+"confirmation"
+
+#: app/controllers/AuthController.php:501
+msgid "errmsg_password_reset_code_send"
+msgstr "An error occurred while sending mail"
+
+#: app/controllers/AuthController.php:517
+#: app/controllers/AuthController.php:533
+msgid "errmsg_password_reset_code_false"
+msgstr "The password change code is not found or has expired"
+
+#: app/controllers/AuthController.php:536
+msgid "errmsg_password_repeat_needed"
+msgstr "Please, enter your password again"
+
+#: app/controllers/AuthController.php:539
+msgid "errmsg_password_and_repeat_not_equal"
+msgstr "Passwords do not match"
+
+#: app/controllers/ClientController.php:29
+#: app/controllers/ClientController.php:52
+msgid "client_company_is_empty"
+msgstr "User has no company"
+
+#: app/global/Locale.php:35
+msgid "test_lang_key_"
+msgstr ""
+
+#: app/global/Security.php:41
+msgid "token_not_needed"
+msgstr "Token passed for an open method"
+
+#: app/global/Security.php:55
+msgid "broker_unauthorized"
+msgstr "Broker unauthorized"
+
+#: app/global/Security.php:62
+msgid "broker_unauthorizeds"
+msgstr ""
+
+#: app/global/Security.php:74
+msgid "user_unauthorized_expire_sso_token"
+msgstr "User unauthorized, sso token expired"
+
+#: app/global/Security.php:87
+msgid "user_unauthorized_sso_session_not_find"
+msgstr "User unauthorized, session not found"
+
+#: app/global/Security.php:104
+msgid "user_unauthorized_not_found_token"
+msgstr "User unauthorized, token not found"
+
+#: app/global/Security.php:110
+msgid "user_unauthorized_user_deleted"
+msgstr "User unauthorized, user deleted"
+
+#: app/helpers/ClientHelper.php:197 app/models/ClientAttributes.php:212
+msgid "validator_phone_number_not_correct"
+msgstr "Phone number is incorrect"
+
+#: app/helpers/SingleSignOnHelper.php:44
+#: app/helpers/SingleSignOnHelper.php:161
+msgid "msg_username_not_set"
+msgstr "username isn't set"
+
+#: app/helpers/SingleSignOnHelper.php:46
+#: app/helpers/SingleSignOnHelper.php:165
+msgid "msg_password_not_set"
+msgstr "password isn't set"
+
+#: app/helpers/SingleSignOnHelper.php:172
+msgid "msg_user_was_deleted"
+msgstr "User was deleted"
+
+#: app/helpers/SingleSignOnHelper.php:179
+#: app/helpers/SingleSignOnHelper.php:184
+msgid "msg_invalid_credentials"
+msgstr "Invalid credentials"
+
+#: app/helpers/validation_class/BelongsTo.php:31
+#: app/helpers/validation_errors/BelongsTo.php:10
+msgid "validator_field_not_correct"
+msgstr "The field was filled incorrectly"
+
+#: app/helpers/validation_class/ChangePassword.php:21
+#: app/helpers/validation_errors/ChangePassword.php:10
+msgid "validator_old_pass_not_correct"
+msgstr "Sorry, your old password is not correct"
+
+#: app/helpers/validation_class/ManyTableUniqueness.php:34
+msgid "This record not unique"
+msgstr "This record is not unique"
+
+#: app/helpers/validation_class/NameValidator.php:21
+msgid "validator_field_name_not_correct"
+msgstr "Data entered is incorrect"
+
+#: app/helpers/validation_errors/ApiValidationError.php:37
+#, php-format
+msgid "validator_field_not_defined"
+msgstr "Field is not defined. Message:"
+
+#: app/helpers/validation_errors/Between.php:9
+msgid "validator_timezone_range_not_correct"
+msgstr "Field 'timezone' should be in the range from -11 to +14"
+
+#: app/helpers/validation_errors/Email.php:9
+#: app/helpers/validation_errors/Email.php:14
+msgid "validator_email_not_correct"
+msgstr "The field 'email' entered incorrectly"
+
+#: app/helpers/validation_errors/InclusionIn.php:10
+msgid "validator_lib_value_not_inclusion_in"
+msgstr "The field is not included in the permissible values"
+
+#: app/helpers/validation_errors/InclusionIn.php:15
+msgid "domain_employees_invalid_active_value"
+msgstr "Invalid visibility value"
+
+#: app/helpers/validation_errors/InclusionIn.php:20
+msgid "domain_menu_type_content_inclusion_in"
+msgstr "Invalid type content value"
+
+#: app/helpers/validation_errors/InclusionIn.php:25
+msgid "rubric_news_section_id_inclusion_in"
+msgstr "Invalid section value"
+
+#: app/helpers/validation_errors/NameValidator.php:10
+msgid "validator_first_name_not_correct"
+msgstr "The 'name' field entered incorrectly"
+
+#: app/helpers/validation_errors/NameValidator.php:15
+msgid "validator_last_name_not_correct"
+msgstr "The 'surname' field  entered incorrectly"
+
+#: app/helpers/validation_errors/NameValidator.php:20
+msgid "validator_second_name_not_correct"
+msgstr "The 'patronymic' field entered incorrectly"
+
+#: app/helpers/validation_errors/PresenceOf.php:9
+msgid "validator_email_presence_of"
+msgstr "The 'email' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:14
+msgid "validator_first_name_presence_of"
+msgstr "The 'first_name' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:19
+msgid "validator_last_name_presence_of"
+msgstr "The 'last_name' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:24
+msgid "validator_password_presence_of"
+msgstr "The 'password' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:29
+#: app/helpers/validation_errors/PresenceOf.php:39
+msgid "validator_phone_number_presence_of"
+msgstr "The 'phone' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:34
+msgid "validator_name_presence_of"
+msgstr "The 'Name' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:44
+msgid "validator_site_presence_of"
+msgstr "The 'site' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:49
+msgid "validator_title_presence_of"
+msgstr "The 'title' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:54
+msgid "validator_alias_presence_of"
+msgstr "The 'alias' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:59
+msgid "validator_type_content_presence_of"
+msgstr "The 'type content' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:64
+msgid "validator_section_id_presence_of"
+msgstr "The 'section' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:69
+msgid "validator_start_offset_presence_of"
+msgstr "The 'annotation start' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:74
+msgid "validator_end_offset_presence_of"
+msgstr "The 'annotation end' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:79
+msgid "validator_color_presence_of"
+msgstr "The 'annotation color' field is required"
+
+#: app/helpers/validation_errors/PresenceOf.php:84
+msgid "validator_annotation_presence_of"
+msgstr "The 'annotation body' field is required"
+
+#: app/helpers/validation_errors/Regex.php:9
+#: app/helpers/validation_errors/Regex.php:14
+msgid "validator_phone_number_regex"
+msgstr "The phone number is not in the right format"
+
+#: app/helpers/validation_errors/TooLong.php:9
+msgid "validator_first_name_too_long"
+msgstr "The 'name' field should not exceed 50 characters"
+
+#: app/helpers/validation_errors/TooLong.php:14
+msgid "validator_second_name_too_long"
+msgstr "The 'second_name' field should not exceed 50 characters"
+
+#: app/helpers/validation_errors/TooLong.php:19
+msgid "validator_last_name_too_long"
+msgstr "The 'last_name' field should not exceed 50 characters"
+
+#: app/helpers/validation_errors/TooLong.php:24
+msgid "validator_password_too_long"
+msgstr "Password is too long"
+
+#: app/helpers/validation_errors/TooLong.php:29
+msgid "validator_old_password_too_long"
+msgstr "Your old password is too long"
+
+#: app/helpers/validation_errors/TooLong.php:34
+msgid "validator_name_too_long"
+msgstr "The 'name' field is too long"
+
+#: app/helpers/validation_errors/TooLong.php:39
+msgid "validator_inn_too_long"
+msgstr "Field 'INN' is too long"
+
+#: app/helpers/validation_errors/TooLong.php:44
+msgid "validator_address_too_long"
+msgstr "The 'address' field is too long"
+
+#: app/helpers/validation_errors/TooShort.php:9
+msgid "validator_first_name_too_short"
+msgstr "The 'name' field should be more than 2 symbols"
+
+#: app/helpers/validation_errors/TooShort.php:14
+msgid "validator_second_name_too_short"
+msgstr "There must be at least one character in the 'second_name'"
+
+#: app/helpers/validation_errors/TooShort.php:19
+msgid "validator_last_name_too_short"
+msgstr "The 'last_name' field should be more than 2 symbols"
+
+#: app/helpers/validation_errors/TooShort.php:24
+msgid "validator_password_too_short"
+msgstr "The password must be more than 2 characters long"
+
+#: app/helpers/validation_errors/TooShort.php:29
+msgid "validator_old_password_too_short"
+msgstr "Your old password is too short"
+
+#: app/helpers/validation_errors/TooShort.php:34
+msgid "validator_name_too_short"
+msgstr "The 'name' field is too short"
+
+#: app/helpers/validation_errors/TooShort.php:39
+msgid "validator_inn_too_short"
+msgstr "The 'INN' field is too short"
+
+#: app/helpers/validation_errors/TooShort.php:44
+msgid "validator_address_too_short"
+msgstr "The 'address' field is too short"
+
+#: app/helpers/validation_errors/Uniqueness.php:9
+msgid "validator_email_unique"
+msgstr "This email already exists"
+
+#: app/helpers/validation_errors/Uniqueness.php:14
+#: app/helpers/validation_errors/Uniqueness.php:19
+msgid "validator_phone_number_unique"
+msgstr "This phone number is already in use"
+
+#: app/helpers/validation_errors/Uniqueness.php:24
+msgid "validator_name_unique"
+msgstr "The 'name' field must be unique"
+
+#: app/library/Response/Basic.php:94
+msgid "error_permission_denied"
+msgstr "Error, permission denied"
+
+#: app/library/TimeAgo/TimeAgo.php:286
+#, php-format
+msgid "%d days ago"
+msgid_plural "%d days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/library/TimeAgo/TimeAgo.php:289
+#, php-format
+msgid "%d hours ago"
+msgid_plural "%d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/library/TimeAgo/TimeAgo.php:292
+#, php-format
+msgid "%d minutes ago"
+msgid_plural "%d minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/library/TimeAgo/TimeAgo.php:295
+#, php-format
+msgid "%d months ago"
+msgid_plural "%d months ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/library/TimeAgo/TimeAgo.php:298
+#, php-format
+msgid "%d years ago"
+msgid_plural "%d years ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/models/Client.php:1135
+msgid "last_visit_never"
+msgstr "Never"
+
+#: app/models/ClientEmail.php:280 app/models/RegisterRequest.php:342
+msgid "subj_confirm_email"
+msgstr "Please confirm your email"

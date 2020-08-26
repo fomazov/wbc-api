@@ -1,0 +1,14 @@
+{
+  "name": "WBC API documentation",
+  "version": "0.1.0",
+  "title": "WBC API browser",
+  "url" : "https://api-wbc.fomazov.name",
+  "header": {
+    "title": "General information",
+    "filename": "General.md"
+  },
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}

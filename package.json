@@ -1,0 +1,15 @@
+{
+  "name": "wbc-api",
+  "version": "r-4e24f4da",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:fomazov/wbc-api.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "apidoc": "^0.15.1",
+    "grunt": "^0.4.5",
+    "grunt-bump": "^0.3.1",
+    "matchdep": "^0.3.0"
+  }
+}

@@ -1,0 +1,16 @@
+paths:
+    migrations: %%PHINX_CONFIG_DIR%%/app/migrations
+
+environments:
+    default_migration_table: docker_phinx_log
+    default_database: docker
+
+    docker:
+        adapter: mysql
+        host: v_wbc_api_db
+        name: wbc_api
+        user: vagrant
+        pass: 'vagrant'
+        port: 3306
+        charset: utf8
+        table_prefix: wbc_
